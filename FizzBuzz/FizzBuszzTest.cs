@@ -33,6 +33,7 @@ public class FizzBuszzTest
 
     private int ValidarNumero(int numero)
     {
-        return 1;
+        
+        return numero;
     }
 }

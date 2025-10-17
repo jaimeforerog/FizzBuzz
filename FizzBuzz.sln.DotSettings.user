@@ -1,10 +1,10 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=475c6ee0_002D7c63_002D4f31_002Db5fb_002D41cafb60838c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="FizzBuszzTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=475c6ee0_002D7c63_002D4f31_002Db5fb_002D41cafb60838c/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="FizzBuszzTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::58E81349-B05B-49E4-8FA3-844D78CF3099::net9.0::FizzBuzz.FizzBuszzTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=498cf10e_002D8152_002D4d50_002Db7b9_002D347f031dd03b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Si_Envio_1_Devuelvo_1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=498cf10e_002D8152_002D4d50_002Db7b9_002D347f031dd03b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Si_Envio_1_Devuelvo_1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;xUnit::58E81349-B05B-49E4-8FA3-844D78CF3099::net9.0::FizzBuzz.FizzBuszzTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
