@@ -102,7 +102,25 @@ public class FizzBuszzTest
         //Assert
         resultado.Should().Be("FizzBuzz");
     }
-    
+
+    [Fact]
+    public void Al_Iniciar_Programa_Debe_Retornar_Fizz_Buzz_Del_1_Al_100()
+    {
+    // act
+
+    var resultado = new  List<string>() ;
+    resultado  = ObtenerFizzBuzz();
+    //accert
+
+    resultado.Should().HaveCount(100);
+    }
+
+    private List<string> ObtenerFizzBuzz()
+    {
+        throw new NotImplementedException();
+    }
+
+
     private string ValidarNumero(int numero)
     { 
         if(numero % 15 == 0)
