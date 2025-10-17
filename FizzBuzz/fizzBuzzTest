@@ -1,0 +1,13 @@
+ [] si envio 1 devuelve 1 
+ [] si envio 2 devuele 2
+
+ [] si envio 3 develve fizz
+ [] si envio 6 devuelve fizz
+
+ [] si envio 5 devuelve Buzz
+ [] si envio 10 devuelve Buzz
+
+ [] si envio 15 devuelve fizzBuzz 
+ [] si envio 30 devuelve fizzBuzz 
+
+
