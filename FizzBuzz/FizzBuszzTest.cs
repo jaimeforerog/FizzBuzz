@@ -57,6 +57,19 @@ public class FizzBuszzTest
         resultado.Should().Be("Fizz");
     }
     
+    [Fact]
+    public void Si_Envio_5_Devuelvo_Buzz()
+    {
+        //arrange 
+        int numero = 5;
+        
+        //act 
+        string resultado=ValidarNumero(numero);
+        
+        //assert
+        resultado.Should().Be("Buzz");
+    }
+    
     private string ValidarNumero(int numero)
     { 
         if (numero %3==0) 
