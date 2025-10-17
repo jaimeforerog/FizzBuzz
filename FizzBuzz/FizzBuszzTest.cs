@@ -47,7 +47,11 @@ public class FizzBuszzTest
     
     private string ValidarNumero(int numero)
     {
-        
+        if (numero == 3)
+        {
+            return "Fizz";
+        }
+
         return numero.ToString();
     }
 }
