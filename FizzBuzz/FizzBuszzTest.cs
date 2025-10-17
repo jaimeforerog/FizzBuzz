@@ -13,9 +13,22 @@ public class FizzBuszzTest
     //act
     var resultado=ValidarNumero(numero);
 
-    //accert
+    //assert
     resultado.Should().Be(1);
 
+    }
+
+    [Fact]
+    public void Si_Envio_2_Devuelvo_2()
+    {
+        //arrange
+        var numero = 2;
+
+        //act
+        var resultado=ValidarNumero(numero);
+
+        //assert
+        resultado.Should().Be(2);
     }
 
     private int ValidarNumero(int numero)
