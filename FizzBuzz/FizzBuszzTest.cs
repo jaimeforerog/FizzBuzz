@@ -117,7 +117,13 @@ public class FizzBuszzTest
 
     private List<string> ObtenerFizzBuzz()
     {
-        throw new NotImplementedException();
+        var numero = new List<string>();
+        for (int i = 1; i <= 100; i++)
+        {
+            numero.Add(i.ToString());
+            
+        }
+        return numero;
     }
 
 
