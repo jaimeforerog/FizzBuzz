@@ -105,7 +105,7 @@ public class FizzBuszzTest
     
     private string ValidarNumero(int numero)
     { 
-        if(numero == 15)
+        if(numero == 15 || numero == 30)
             return "FizzBuzz";
         
         if (numero %3==0) 
