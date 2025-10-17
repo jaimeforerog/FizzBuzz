@@ -14,12 +14,12 @@ public class FizzBuszzTest
     var resultado=ValidarNumero(numero);
 
     //accert
-    resultado.Should().Be("1");
+    resultado.Should().Be(1);
 
     }
 
-    private object ValidarNumero(int numero)
+    private int ValidarNumero(int numero)
     {
-        throw new NotImplementedException();
+        return 1;
     }
 }

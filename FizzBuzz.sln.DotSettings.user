@@ -6,6 +6,6 @@
 &lt;/SessionState&gt;</s:String>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=498cf10e_002D8152_002D4d50_002Db7b9_002D347f031dd03b/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Si_Envio_1_Devuelvo_1" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::58E81349-B05B-49E4-8FA3-844D78CF3099::net9.0::FizzBuzz.FizzBuszzTest.Si_Envio_1_Devuelvo_1&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::58E81349-B05B-49E4-8FA3-844D78CF3099::net9.0::FizzBuzz.FizzBuszzTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
