@@ -91,6 +91,18 @@ public class FizzBuszzTest
         //asserts
         resultado.Should().Be("FizzBuzz");
     }
+
+    [Fact]
+    public void Si_Envio_30_Devuelve_FizzBuzz()
+    {
+        //Arrage
+        int numero = 30;
+        //Act
+        String resultado = ValidarNumero(numero);
+        //Assert
+        resultado.Should().Be("FizzBuzz");
+    }
+    
     private string ValidarNumero(int numero)
     { 
         if(numero == 15)

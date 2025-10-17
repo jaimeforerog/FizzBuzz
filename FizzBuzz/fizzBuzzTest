@@ -7,7 +7,7 @@
  [x] si envio 5 devuelve Buzz
  [x] si envio 10 devuelve Buzz
 
- [] si envio 15 devuelve fizzBuzz 
+ [x] si envio 15 devuelve fizzBuzz 
  [] si envio 30 devuelve fizzBuzz 
 
 
