@@ -87,7 +87,7 @@ public class FizzBuszzTest
         //arrange
         int numero = 15;
         //act
-        String resultado = ValidarNumero(numero);
+        string resultado = ValidarNumero(numero);
         //asserts
         resultado.Should().Be("FizzBuzz");
     }
@@ -98,14 +98,14 @@ public class FizzBuszzTest
         //Arrage
         int numero = 30;
         //Act
-        String resultado = ValidarNumero(numero);
+        string resultado = ValidarNumero(numero);
         //Assert
         resultado.Should().Be("FizzBuzz");
     }
     
     private string ValidarNumero(int numero)
     { 
-        if(numero == 15 || numero == 30)
+        if(numero % 15 == 0)
             return "FizzBuzz";
         
         if (numero %3==0) 
@@ -113,8 +113,6 @@ public class FizzBuszzTest
         
         if(numero % 5 == 0)
             return "Buzz";
-        
-        
         
         return numero.ToString();
     }
