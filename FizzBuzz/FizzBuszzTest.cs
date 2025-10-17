@@ -80,6 +80,17 @@ public class FizzBuszzTest
         //asserts
         resultado.Should().Be("Buzz");
     }
+
+    [Fact]
+    public void Si_Envio_15_Devuelve_FizzBuzz()
+    {
+        //arrange
+        int numero = 15;
+        //act
+        String resultado = ValidarNumero(numero);
+        //asserts
+        resultado.Should().Be("FizzBuzz");
+    }
     private string ValidarNumero(int numero)
     { 
         if (numero %3==0) 

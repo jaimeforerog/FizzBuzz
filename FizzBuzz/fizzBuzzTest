@@ -4,8 +4,8 @@
  [x] si envio 3 develve fizz
  [x] si envio 6 devuelve fizz
 
- [] si envio 5 devuelve Buzz
- [] si envio 10 devuelve Buzz
+ [x] si envio 5 devuelve Buzz
+ [x] si envio 10 devuelve Buzz
 
  [] si envio 15 devuelve fizzBuzz 
  [] si envio 30 devuelve fizzBuzz 
