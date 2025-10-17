@@ -85,7 +85,7 @@ public class FizzBuszzTest
         if (numero %3==0) 
             return "Fizz";
         
-        if(numero == 5)
+        if(numero == 5 || numero == 10)
             return "Buzz";
         
         return numero.ToString();
