@@ -8,10 +8,10 @@ public class FizzBuszzTest
     public void Si_Envio_1_Devuelvo_1( )
     {
     // Arrange
-    var numero = 1;
+    int numero = 1;
 
     //act
-    var resultado=ValidarNumero(numero);
+    string resultado=ValidarNumero(numero);
 
     //assert
     resultado.Should().Be("1");
@@ -22,10 +22,10 @@ public class FizzBuszzTest
     public void Si_Envio_2_Devuelvo_2()
     {
         //arrange
-        var numero = 2;
+        int numero = 2;
 
         //act
-        var resultado=ValidarNumero(numero);
+        string resultado=ValidarNumero(numero);
 
         //assert
         resultado.Should().Be("2");
@@ -35,10 +35,10 @@ public class FizzBuszzTest
     public void Si_Envio_3_Devuelvo_Fizz()
     {
         //arrange 
-        var numero =3;
+        int numero =3;
         
         //act 
-        var resultado=ValidarNumero(3);
+        string resultado=ValidarNumero(3);
         
         //assert
         resultado.Should().Be("Fizz");
@@ -46,12 +46,9 @@ public class FizzBuszzTest
     
     
     private string ValidarNumero(int numero)
-    {
-        if (numero == 3)
-        {
+    { 
+        if (numero == 3) 
             return "Fizz";
-        }
-
         return numero.ToString();
     }
 }
