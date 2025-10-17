@@ -31,7 +31,18 @@ public class FizzBuszzTest
         resultado.Should().Be("2");
     }
 
-
+    [Fact]
+    public void Si_Envio_3_Devuelvo_Fizz()
+    {
+        //arrange 
+        var numero =3;
+        
+        //act 
+        var resultado=ValidarNumero(3);
+        
+        //assert
+        resultado.Should().Be("Fizz");
+    }
     
     
     private string ValidarNumero(int numero)
