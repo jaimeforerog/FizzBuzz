@@ -38,12 +38,24 @@ public class FizzBuszzTest
         int numero =3;
         
         //act 
-        string resultado=ValidarNumero(3);
+        string resultado=ValidarNumero(numero);
         
         //assert
         resultado.Should().Be("Fizz");
     }
     
+    [Fact]
+    public void Si_Envio_6_Devuelvo_Fizz()
+    {
+        //arrange 
+        int numero =6;
+        
+        //act 
+        string resultado=ValidarNumero(numero);
+        
+        //assert
+        resultado.Should().Be("Fizz");
+    }
     
     private string ValidarNumero(int numero)
     { 
