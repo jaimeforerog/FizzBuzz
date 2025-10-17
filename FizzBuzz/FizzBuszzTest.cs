@@ -59,7 +59,7 @@ public class FizzBuszzTest
     
     private string ValidarNumero(int numero)
     { 
-        if (numero == 3) 
+        if (numero == 3 || numero == 6) 
             return "Fizz";
         return numero.ToString();
     }
