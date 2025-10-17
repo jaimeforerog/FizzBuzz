@@ -14,7 +14,7 @@ public class FizzBuszzTest
     var resultado=ValidarNumero(numero);
 
     //assert
-    resultado.Should().Be(1);
+    resultado.Should().Be("1");
 
     }
 
@@ -28,12 +28,15 @@ public class FizzBuszzTest
         var resultado=ValidarNumero(numero);
 
         //assert
-        resultado.Should().Be(2);
+        resultado.Should().Be("2");
     }
 
-    private int ValidarNumero(int numero)
+
+    
+    
+    private string ValidarNumero(int numero)
     {
         
-        return numero;
+        return numero.ToString();
     }
 }
