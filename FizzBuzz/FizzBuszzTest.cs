@@ -120,7 +120,8 @@ public class FizzBuszzTest
         var numero = new List<string>();
         for (int i = 1; i <= 100; i++)
         {
-            numero.Add(i.ToString());
+            numero.Add(ValidarNumero(i));
+            
             
         }
         return numero;
